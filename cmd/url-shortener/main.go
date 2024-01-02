@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 	"url-shortener/internal/config"
-	"url-shortener/internal/http-server/handler/url/save"
+	"url-shortener/internal/http-server/handlers/url/save"
 	mwLogger "url-shortener/internal/http-server/middleware/logger"
 	"url-shortener/internal/lib/logger/handlers/slogpretty"
 	"url-shortener/internal/lib/logger/sl"
